@@ -1,0 +1,7 @@
+| Design Pattern | Use Case                              | Justification                                         |
+| -------------- | ------------------------------------- | ----------------------------------------------------- |
+| **Factory**    | Creating various meal types           | Decouples meal creation from usage                    |
+| **Decorator**  | Add-ons like drinks, cheese           | Flexible customization without subclass explosion     |
+| **Strategy**   | Varying preparation logic per cuisine | Keeps preparation behavior extensible and separate    |
+| **Observer**   | Notifying delivery system             | Loosely couples order status to delivery notification |
+| **State**      | Order status management               | Cleanly manages transitions between order statuses    |
