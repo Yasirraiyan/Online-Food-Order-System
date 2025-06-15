@@ -13,9 +13,9 @@ class Program
         Order order = new Order(meal, prep, notifier);
         Console.WriteLine("Initial Order: " + meal.GetDescription() + " | Cost: $" + meal.GetCost());
 
-        order.Proceed(); // Move to Preparing
-        order.Proceed(); // Move to Dispatched
-        order.Proceed(); // Move to Delivered
-        order.Proceed(); // Already delivered
+        order.Proceed(); 
+        order.Proceed(); 
+        order.Proceed(); 
+        order.Proceed(); 
     }
 }
